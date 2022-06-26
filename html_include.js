@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", (e) => {
     const includeHTML = (el, url) => {
         const xhr = new XMLHttpRequest();
-        xhr.addEventListenes("readystatechange", e => {
+        xhr.addEventListener("readystatechange", e => {
             if (xhr.readyState !== 4) return;
             if (xhr.status >= 200 && xhr.status < 300) {
                 el.outerHTML = xhr.responseText;
