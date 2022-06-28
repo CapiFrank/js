@@ -47,15 +47,15 @@ function get_personas(URL) {
 
                         var inner_celda = document.createElement("td");
                         var textoCelda = document.createTextNode(usuario.tel_tr);
-                        inner_celda.style.borderLeft = "black 1.5px solid";
                         inner_celda.appendChild(textoCelda);
+                        inner_celda.style.borderLeft = "black 1.5px solid";
                         inner_hilera.appendChild(inner_celda);
                         inner_tabla.appendChild(inner_hilera);
 
                         var inner_celda = document.createElement("td");
                         var textoCelda = document.createTextNode(usuario.tel_otr);
-                        inner_celda.style.borderLeft = "black 1.5px solid";
                         inner_celda.appendChild(textoCelda);
+                        inner_celda.style.borderLeft = "black 1.5px solid";
                         inner_hilera.appendChild(inner_celda);
                         inner_tabla.appendChild(inner_hilera);
                         
@@ -77,15 +77,15 @@ function get_personas(URL) {
 
                         var inner_celda = document.createElement("td");
                         var textoCelda = document.createTextNode(usuario.cor_tr);
-                        inner_celda.style.borderLeft = "black 1.5px solid";
                         inner_celda.appendChild(textoCelda);
+                        inner_celda.style.borderLeft = "black 1.5px solid";
                         inner_hilera.appendChild(inner_celda);
                         inner_tabla.appendChild(inner_hilera);
 
                         var inner_celda = document.createElement("td");
                         var textoCelda = document.createTextNode(usuario.cor_otr);
-                        inner_celda.style.borderLeft = "black 1.5px solid";
                         inner_celda.appendChild(textoCelda);
+                        inner_celda.style.borderLeft = "black 1.5px solid";
                         inner_hilera.appendChild(inner_celda);
                         inner_tabla.appendChild(inner_hilera);
                         
