@@ -96,7 +96,7 @@ function get_personas(URL) {
                         //------------------------------------------------------------
 
                         var celda = document.createElement("td");
-                        celda.innerHTML = `<a href="/persona/eliminar/${usuario.cedula}">Eliminar</a>`;
+                        celda.innerHTML = `<a href="${URL}/eliminar/${usuario.cedula}">Eliminar</a>`;
                         hilera.appendChild(celda);
                         tblBody.appendChild(hilera);
                     });
