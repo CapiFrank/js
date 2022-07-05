@@ -35,53 +35,6 @@ function get_personas(URL) {
                         tblBody.appendChild(hilera);
 
                         //------------------------------------------------------------
-                                
-                        var celda = document.createElement("td");
-                        var textoCelda = document.createTextNode(usuario.tel_per);
-                        celda.appendChild(textoCelda);
-                        hilera.appendChild(celda);        
-                        tblBody.appendChild(hilera);
-
-                        //------------------------------------------------------------
-                                
-                        var celda = document.createElement("td");
-                        var textoCelda = document.createTextNode(usuario.tel_tr);
-                        celda.appendChild(textoCelda);
-                        hilera.appendChild(celda);        
-                        tblBody.appendChild(hilera);
-                                
-                        //------------------------------------------------------------
-
-                        var celda = document.createElement("td");
-                        var textoCelda = document.createTextNode(usuario.tel_otr);
-                        celda.appendChild(textoCelda);
-                        hilera.appendChild(celda);        
-                        tblBody.appendChild(hilera);
-
-                        //------------------------------------------------------------
-
-                        var celda = document.createElement("td");
-                        var textoCelda = document.createTextNode(usuario.cor_per);
-                        celda.appendChild(textoCelda);
-                        hilera.appendChild(celda);        
-                        tblBody.appendChild(hilera);
-
-                        //------------------------------------------------------------
-                                
-                        var celda = document.createElement("td");
-                        var textoCelda = document.createTextNode(usuario.cor_tr);
-                        celda.appendChild(textoCelda);
-                        hilera.appendChild(celda);        
-                        tblBody.appendChild(hilera);
-                                
-                        //------------------------------------------------------------
-
-                        var celda = document.createElement("td");
-                        var textoCelda = document.createTextNode(usuario.cor_otr);
-                        celda.appendChild(textoCelda);
-                        hilera.appendChild(celda);        
-                        tblBody.appendChild(hilera);
-                        //------------------------------------------------------------
 
                         var celda = document.createElement("td");
                         celda.innerHTML = `<a href="${URL}/detalles/${usuario.cedula}">Detalles</a>`;
