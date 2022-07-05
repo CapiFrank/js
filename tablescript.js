@@ -84,6 +84,13 @@ function get_personas(URL) {
                         //------------------------------------------------------------
 
                         var celda = document.createElement("td");
+                        celda.innerHTML = `<a href="${URL}/detalles/${usuario.cedula}">Detalles</a>`;
+                        hilera.appendChild(celda);
+                        tblBody.appendChild(hilera);
+                        
+                        //------------------------------------------------------------
+
+                        var celda = document.createElement("td");
                         celda.innerHTML = `<a href="${URL}/editar/${usuario.cedula}">Editar</a>`;
                         hilera.appendChild(celda);
                         tblBody.appendChild(hilera);
