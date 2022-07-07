@@ -425,14 +425,14 @@ function get_itinerario(URL) {
                         //------------------------------------------------------------
 
                         var celda = document.createElement("td");
-                        celda.innerHTML = `<a href="${URL}/eliminar/${usuario.id}">Eliminar</a>`;
+                        celda.innerHTML = `<a href="${URL}/eliminar/${usuario.codigo_itinerario}">Eliminar</a>`;
                         hilera.appendChild(celda);
                         tblBody.appendChild(hilera);
 
                         //------------------------------------------------------------
 
                         var celda = document.createElement("td");
-                        celda.innerHTML = `<a href="${URL}/editar/${usuario.id}">Editar</a>`;
+                        celda.innerHTML = `<a href="${URL}/editar/${usuario.codigo_itinerario}">Editar</a>`;
                         hilera.appendChild(celda);
                         tblBody.appendChild(hilera);
                     });
